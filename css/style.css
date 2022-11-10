@@ -4,12 +4,52 @@
     margin: 0;
     padding: 0;
 }
-header{
+
+.container{
     text-align: center;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 70%; 
 }
+
 #title-header{
     color: red;
     padding: 20px;
 }
+.row{
+    margin: 0 auto;
+    max-width: 70%; 
+    margin-top: 30px;
+}
+
+.card{
+    background-color: black;
+    color: aliceblue;
+    float: left;
+    width: calc(100% / 3 - 7px);
+    box-shadow: 0px 0px 14px 0px black;
+}
+#special{
+    margin: 0 10px 0 ;
+    
+}
+img{
+    height: 90px;
+    float: left;
+    
+}
+.description{
+    float: left;
+    line-height:calc( 90px / 3);
+    
+    padding: 0 30px 0 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(44, 152, 240);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
