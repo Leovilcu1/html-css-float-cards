@@ -1,0 +1,15 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 70%;
+}
+#title-header{
+    color: red;
+    padding: 20px;
+}
